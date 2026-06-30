@@ -8,12 +8,25 @@
 </head>
 <body>
   <div class="top-nav-container">
-    <button class="menu-btn">
-      <img src="icons/burger-bar.png">
+    <button class="menu-btn js-menu-btn">
+      <img src="icons/burger-bar-white.png">
     </button>
   </div>
 
-  <div class="left-nav">
+  <div class="main-container">
+    <div class="main-header">
+      <img src="icons/i-expense-logo-name.png">
+    </div>
+    <div class="form-container">
+      <input type="text" placeholder="Email"    class="email-inp">
+      <input type="password" placeholder="Password" class="pwd-inp">
+      <button>Log in</button>
+      <span>Sign up</span>
+    </div>
+  </div>
+
+  <div class="left-nav js-left-nav
+    close-side-nav">
     <div class="left-nav-btn-container">
       <button class="home-btn">
         <span>
@@ -25,11 +38,13 @@
           About Us
         </span>
       </button>
-      <button class="close-nav-btn">
+      <button class="close-nav-btn
+        js-close-nav-btn">
         <img src="icons/right-arrow.png">
       </button>
     </div>
   </div>
 
+  <script type="module" src="script/homePage.js"></script>
 </body>
 </html>
