@@ -18,10 +18,37 @@
       <img src="icons/i-expense-logo-name.png">
     </div>
     <div class="form-container">
-      <input type="text" placeholder="Email"    class="email-inp">
-      <input type="password" placeholder="Password" class="pwd-inp">
-      <button>Log in</button>
-      <span>Sign up</span>
+      <div class="login-active">
+        <input type="text" placeholder="Email"    class="email-inp">
+        <input type="password" placeholder="Password" class="pwd-inp">
+        <div class="login-btn">
+          <button>Log in</button>
+          <span class="js-signup-btn">Sign up</span>
+        </div>
+      </div>
+      <div class="signup-close">
+        <div class="step1-close">
+          <input type="text" placeholder="First Name">
+          <input type="text" placeholder="Last Name (Optional)">
+          <input type="text" placeholder="Email">
+        </div>
+        <div class="step2-close">
+          <input type="password" placeholder="Password">
+          <input type="password" placeholder="Complete Password">
+          <div class="verification">
+            <input type="number" placeholder="Enter verification code">
+            <button>Send Code</button>
+          </div>
+        </div>
+        <div class="signup-btn">
+          <button class="js-previous-btn">
+            <img src="icons/white-arrow-left.png">
+          </button>
+          <button class="js-next-btn">
+            <img src="icons/white-arrow-right.png">
+          </button>
+        </div>
+      </div>
     </div>
   </div>
 
